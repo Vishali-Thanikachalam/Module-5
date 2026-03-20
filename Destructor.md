@@ -21,9 +21,21 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+```
+class Demo:
+    def __init__(self):
+        self.status = "Alive"
+        print("Object status:", self.status)
+
+    def __del__(self):
+        print("Destructor called... Object is being destroyed.")
+
+d = Demo()
+del d
+```
 
 ## 🧪 Output
+<img width="597" height="152" alt="image" src="https://github.com/user-attachments/assets/603a523b-426a-4988-9f0b-04f7ca635af1" />
 
 ## Result
-
+Thus, the program has been executed successfully.
